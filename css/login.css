@@ -1,0 +1,60 @@
+#login-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-form{
+    background: rgba(0,0,0, .7);
+    width: 30em;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding-block: 1.5em;
+}
+
+.container-form form {
+    width: 70%;
+}
+
+.container-form form h2{
+    padding-block: 1.5em 1em;
+    font-size: 2.3em;
+}
+.container-form form input{
+    display: flex;
+    border-radius: 7px;
+    width: 100%;
+    height: 4em;
+}
+
+.input{
+    background: rgba(34, 33, 33, 0.7);
+    border: solid 1px rgba(0,0,0, .7);
+}
+
+#btn{
+    background: red;
+    display: flex;
+    justify-content: center;
+    border: solid 1px red;
+    font-size: 18px;
+    height: 2.6em;
+}
+
+.captcha{
+    margin-block: 1em;
+    font-size: 15px;
+    color: rgb(92, 88, 88);
+
+}
+
+.captcha a{
+    color: blue;
+}
+
+.error{
+    color: #e87c03;
+    margin-bottom: 1em;
+}
+

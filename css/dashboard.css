@@ -1,0 +1,138 @@
+.dashboard-section{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+}
+
+.dashboard-section .dashboard-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.dashboard-center form{
+    display: flex;
+    flex-direction: row;
+    height: 1.7em;
+}
+
+.dashboard-center form input[type=text]{
+    background: rgba(0,0,0, .5);
+    border: solid 1px white;
+}
+.dashboard-center form input[type=submit]{
+    background: red;
+    border: solid 1px red;
+    width: 5em;
+    border-radius: 0 8em 8em 0;
+    height: 100%;
+}
+
+#scheduleSelect{
+    width: 7em;
+}
+
+.dashboard-center .center-top{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.dashboard-right{
+    padding: 2em;
+}
+
+.dashboard-right .form-container form{
+    flex-direction: column;
+}
+.dashboard-right .form-container form button{
+    height: 2em;
+    width: 5em;
+    background: red;
+    border: solid 1px red;
+    border-radius: 5px;
+}
+
+.dashboard-right .form-container  form input[type=text],.dashboard-right .form-container  form input[type=datetime-local]{
+    background: rgba(0,0,0, .5);
+    border: solid 1px white;
+    height: 2em;
+}
+
+.mini-card{
+    background: rgba(31, 31, 31, 1);
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    border-radius: 7px;
+}
+
+.mini-img{
+    width: 100%;
+    height: 5em;
+    border-radius: 7px;
+}
+
+.mini-img img{
+    width: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+    height: 100%;
+}
+
+.mini-head, .mini-body{
+    padding: 2px;
+}
+
+.mini-body p{
+    display: flex;
+    justify-content: center;
+}
+.mini-body p:last-of-type{
+    text-align: justify;
+}
+
+.section-planning{
+    display: flex;
+    flex-direction: column;
+}
+
+.date-selection{
+    display: flex;
+    height: 2em;
+    justify-content: center;
+}
+
+.date-selection input{
+    height: 100%;
+    background: rgba(0,0,0, .5);
+    border:1px solid white;
+}
+.date-selection input[type=submit]{
+    background: red;
+    border: 1px solid red;
+    border-radius: 7px;
+    padding-inline: 1em;
+}
+
+.pagination{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 1em;
+}
+
+.pagination a{
+    border: solid 1px red;
+    padding:.5em 1em;
+    border-radius: 7px;
+}
+
+.pagination a.active {
+    background-color: red;
+    color: white;
+}
+
+.filter{
+    display: flex;
+    
+}
