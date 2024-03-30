@@ -1,7 +1,7 @@
 <?php
 
-$apiKey = "AIzaSyCK0H7DfhOqi5ELnuK9uM_ikde4rXvLPfM";
-$channelID = "UCj4lFy4F5PqXD7d41mCKVYw";
+$apiKey = "****************************";
+$channelID = "*************************";
 $order = array_rand(['videoCount', 'title','viewCount', 'date'],1);
 $url = "https://www.googleapis.com/youtube/v3/search?key=$apiKey&channelId=$channelID&part=snippet,id&maxResults=$num&order=$order";
 $response = file_get_contents($url);
